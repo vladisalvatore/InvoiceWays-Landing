@@ -32,7 +32,7 @@ function ProductsPage() {
         <div className="container hero-content">
           <h1 className="hero-title">InvoiceWays</h1>
           <p className="hero-subtitle">Empower Your Contracting Business</p>
-          <a href="https://app.invoiceways.com/login" className="btn btn-signup">Sign Up Free</a>
+          <a href="https://app.invoiceways.com" className="btn btn-signup">Sign Up Free</a>
           <div className="hero-media">
             <img src="/invoiceWays.png" alt="InvoiceWays Demo" className="hero-video" />
           </div>

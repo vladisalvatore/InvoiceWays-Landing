@@ -68,7 +68,8 @@
     text-align: center;
     align-items: center;
     align-content: center;
-
+    z-index: 10000;
+    position: relative;
   }
   
   .btn-login:hover {
