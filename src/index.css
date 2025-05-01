@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f9fafb;
+  color: #111827;
+}
+
+.hero {
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.cta {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.email-form input,
+.email-form button {
+  padding: 0.75rem 1rem;
+  margin: 0.5rem;
+}
