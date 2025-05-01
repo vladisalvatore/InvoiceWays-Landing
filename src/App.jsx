@@ -38,9 +38,11 @@ function ProductsPage() {
           </div>
         </div>
       </section>
+      
 
       {/* About InvoiceWays Section */}
       <section className="about">
+
         <div className="container">
           <h2>Track Projects, Create Invoices, Build Estimates</h2>
           <p>
@@ -53,10 +55,10 @@ function ProductsPage() {
                 desc: "Effortlessly monitor project progress and earnings.",
                 screenshot: "/Projects.png",
               },
-              {
-                title: "Centralized Customer Management",
-                desc: "Keep all your clients organized, view their history, and manage accounts effortlessly from one place.",
-                screenshot: "/Customers.png",
+             {
+              title: "Centralized Customer Management",
+              desc: "Keep all your clients organized, view their history, and manage accounts effortlessly from one place.",
+              screenshot: "/Customers.png",
               },
               {
                 title: "Invoice Creation",
@@ -98,7 +100,7 @@ function ProductsPage() {
       <footer className="footer">
         <div className="container">
           <p>Contact Us</p>
-          <p>Email: <a href="mailto:contact@lux-it-solutions.com" >contact@lux-it-solutions.com</a></p>
+          <p>Email: <a href="mailto:contact@lux-it-solutions.com">contact@lux-it-solutions.com</a></p>
           <p>© 2025 Lux IT Solutions. All rights reserved.</p>
         </div>
       </footer>

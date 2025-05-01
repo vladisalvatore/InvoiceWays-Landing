@@ -94,11 +94,17 @@ nav a:hover {
   opacity: 0.4;
 }
 
+.hero-title, .hero-subtitle {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 1s forwards;
+  }
+
 .hero-title {
   font-size: 3rem;
   font-weight: 800;
   margin-bottom: 1.5rem;
-  animation: fadeInUp 1s ease-out;
+
 }
 
 .hero-subtitle {
