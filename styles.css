@@ -65,33 +65,48 @@ body {
 	color: #ffffff;
 }
 
+.page-hero-text {
+	flex: 1;
+	max-width: 980px;
+}
+
+.page-hero-text h1 {
+	font-size: 40px;
+	text-align: center;
+}
+
+.page-hero-text p {
+	text-align: center;
+}
+
 .hero-image img {
 	max-width: 300px;
 	height: auto;
 	animation: floatIn 2s ease-out forwards, glowPulse 4s ease-in-out infinite;
 	opacity: 0;
 	transform: translateY(20px) scale(0.95);
-  }
-  
-  @keyframes floatIn {
+}
+
+@keyframes floatIn {
 	0% {
-	  opacity: 0;
-	  transform: translateY(20px) scale(0.95);
+		opacity: 0;
+		transform: translateY(20px) scale(0.95);
 	}
 	100% {
-	  opacity: 1;
-	  transform: translateY(0) scale(1);
+		opacity: 1;
+		transform: translateY(0) scale(1);
 	}
-  }
-  
-  @keyframes glowPulse {
-	0%, 100% {
-	  filter: drop-shadow(0 0 0px #ffffff50);
+}
+
+@keyframes glowPulse {
+	0%,
+	100% {
+		filter: drop-shadow(0 0 0px #ffffff50);
 	}
 	50% {
-	  filter: drop-shadow(0 0 8px #ffffff80);
+		filter: drop-shadow(0 0 8px #ffffff80);
 	}
-  }
+}
 
 @keyframes breathe {
 	0% {

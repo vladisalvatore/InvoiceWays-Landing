@@ -1,0 +1,127 @@
+/* src/pages/PricingPage.module.css */
+
+/* ---------- Headings ---------- */
+.heading {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-weight: 600;
+}
+
+/* ---------- Card grid ---------- */
+.cards {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+}
+
+/* ---------- Individual card ---------- */
+.card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 1rem;
+  padding: 2.25rem 1.75rem;
+  text-align: center;
+  box-shadow: 0 6px 18px rgb(0 0 0 / 5%);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgb(0 0 0 / 7%);
+}
+
+/* ---------- Text bits ---------- */
+.title {
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.price {
+  margin: 0.25rem 0 1.5rem;
+}
+
+.figure {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.period {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem;
+}
+
+.features li {
+  margin: 0.45rem 0;
+  color: #374151;
+}
+
+/* ---------- Buttons ---------- */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  background: #f3f4f6;
+  color: #111827;
+  transition: background 0.25s;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #e5e7eb;
+}
+
+.btnPrimary {
+  background: #60a5fa;
+  color: #fff;
+}
+
+.btnPrimary:hover {
+  background: #3b82f6;
+}
+
+.btnCta {
+  margin-top: 1.75rem;
+  padding: 1rem 2.5rem;
+  font-size: 1rem;
+}
+
+/* ---------- Popular plan highlight ---------- */
+.popular {
+  position: relative;
+  border: 2px solid #60a5fa;
+  transform: scale(1.03);
+}
+
+.badge {
+  position: absolute;
+  top: -0.75rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #60a5fa;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  letter-spacing: 0.02em;
+}
+
+/* ---------- Responsiveness tweaks ---------- */
+@media (max-width: 480px) {
+  .card {
+    padding: 1.75rem 1.25rem;
+  }
+
+  .figure {
+    font-size: 2.1rem;
+  }
+}
