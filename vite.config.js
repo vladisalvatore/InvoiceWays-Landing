@@ -12,7 +12,7 @@ export default defineConfig({
 				about: resolve(__dirname, "about.html"),
 				pricing: resolve(__dirname, "pricing.html"),
 				features: resolve(__dirname, "features.html"),
-				blog: resolve(__dirname, "blog/index.html"),
+				blog: resolve(__dirname, "blog.html"),
 				mobileBenefits: resolve(
 					__dirname,
 					"blog/mobile-invoicing-benefits.html"
