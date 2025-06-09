@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Features from "./pages/Features/Features.jsx";
-// import "../styles.css";
+import "../styles.css";
 import { HelmetProvider } from "react-helmet-async";
+import Blog from "./pages/Blog/Blog";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
 	<HelmetProvider>
-		<Features />
+		<Blog />
 	</HelmetProvider>
 );

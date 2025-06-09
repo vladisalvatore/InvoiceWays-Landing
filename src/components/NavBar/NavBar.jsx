@@ -6,7 +6,7 @@ export default function NavBar() {
 	const [open, setOpen] = useState(false);
 
 	return (
-		<header className={styles.siteHeader}>
+		<nav className={styles.siteHeader}>
 			<div className={`container ${styles.navInner}`}>
 				{/* Brand */}
 				<a href="/" className={styles.logo}>
@@ -32,8 +32,8 @@ export default function NavBar() {
 				>
 					{/* <a href="/index.html">Home</a> */}
 					<a href="/features">Features</a>
-
 					<a href="/pricing">Pricing</a>
+					<a href="/blog">Blog</a>
 					<a
 						href="https://app.invoiceways.com"
 						className={`${styles.navLogin}`}
@@ -42,6 +42,6 @@ export default function NavBar() {
 					</a>
 				</nav>
 			</div>
-		</header>
+		</nav>
 	);
 }

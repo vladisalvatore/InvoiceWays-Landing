@@ -9,14 +9,17 @@ export default defineConfig({
 		rollupOptions: {
 			input: {
 				main: resolve(__dirname, "index.html"),
-				about: resolve(__dirname, "site/about.html"),
-				pricing: resolve(__dirname, "site/pricing/index.html"),
-				features: resolve(__dirname, "site/features/index.html"),
-				site: resolve(__dirname, "site/index.html"),
+				about: resolve(__dirname, "about.html"),
+				pricing: resolve(__dirname, "pricing.html"),
+				features: resolve(__dirname, "features.html"),
 				blog: resolve(__dirname, "blog/index.html"),
 				mobileBenefits: resolve(
 					__dirname,
 					"blog/mobile-invoicing-benefits.html"
+				),
+				mobileEstimatesVsWordDocs: resolve(
+					__dirname,
+					"blog/mobile-estimates-vs-word-docs.html"
 				),
 			},
 		},

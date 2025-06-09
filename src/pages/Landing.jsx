@@ -20,6 +20,10 @@ export default function Landing() {
 
 				<div className="container hero-content">
 					<div className="hero-text">
+						<div class="promo-badge">
+							🎁 Get 10 Free Invoices & Estimates!
+							<a href="#billing-info">Learn More</a>
+						</div>
 						<h1>Invoices Made Simple</h1>
 						<p>
 							Create professional invoices and estimates for free,
@@ -62,7 +66,7 @@ export default function Landing() {
 			</header>
 
 			{/* ---------- Section: Track / Create / Build ---------- */}
-			<section className="section light">
+			<section className="section light" id="billing-info">
 				<h2>Track Projects, Create Invoices, Build Estimates</h2>
 				<p>
 					InvoiceWays is the ultimate tool for contractors. Track
@@ -71,6 +75,19 @@ export default function Landing() {
 					and upgrade to watermark-free documents for just
 					$6.99/month.
 				</p>
+				<br />
+				<p>
+					<b></b> No Card Required Every new user gets 10 free
+					estimates and 10 free invoices to try out all core features
+					of InvoiceWays. Once you’ve used your free limit, you can
+					subscribe to keep creating and sending invoices and
+					estimates—seamlessly.
+				</p>
+
+				<br />
+				<a href="https://app.invoiceways.com/app" class="btn-download">
+					Download the App Today!
+				</a>
 			</section>
 
 			{/* ---------- Section: Customers (dark) ---------- */}
