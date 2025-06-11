@@ -1,0 +1,62 @@
+/* ----- ArticlePage.module.css ----- */
+.container {
+	padding: clamp(1rem, 5vw, 3rem);
+	max-width: 980px;
+	margin-inline: auto;
+	line-height: 1.6;
+	background: var(--color-bg, #ffffff);
+}
+
+.article {
+	padding: 50px;
+}
+
+.article h1 {
+	font-size: clamp(1.8rem, 4.5vw, 2.5rem);
+	margin-bottom: 0.75em;
+	font-weight: 700;
+}
+
+.article h2 {
+	margin-top: 2.5rem;
+	font-size: clamp(1.35rem, 3.75vw, 1.75rem);
+}
+
+.article h3 {
+	margin-top: 1.5rem;
+	font-size: 1.25rem;
+}
+
+.article ul {
+	padding-left: 1.25em;
+	list-style: disc;
+}
+
+.compare {
+	margin-top: 1rem;
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 0.95rem;
+}
+
+.compare th,
+.compare td {
+	border: 1px solid #e5e7eb;
+	padding: 0.75rem;
+	vertical-align: top;
+}
+
+.compare th {
+	background: #f3f4f6;
+	text-align: left;
+}
+
+.brand {
+	color: var(--color-brand, white);
+	font-weight: 600;
+}
+
+.pbrand {
+	color: var(--color-brand, #1e63f5);
+	font-weight: 600;
+}

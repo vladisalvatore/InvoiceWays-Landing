@@ -1,0 +1,81 @@
+/* Headline */
+.heading {
+	text-align: center;
+	margin-bottom: 3rem;
+	font-weight: 600;
+}
+
+/* Grid wrapper */
+.cards {
+	display: grid;
+	gap: 2rem;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+/* Individual feature card */
+.card {
+	background: #fff;
+	border: 1px solid #e5e7eb;
+	border-radius: 1rem;
+	padding: 1.75rem 1.5rem;
+	text-align: center;
+	box-shadow: 0 4px 14px rgb(0 0 0 / 5%);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 10px 22px rgb(0 0 0 / 8%);
+}
+
+.cardImg {
+	max-width: 80px;
+	height: auto;
+	margin: 0 auto 1.25rem;
+}
+
+.cardTitle {
+	font-size: 1.15rem;
+	font-weight: 600;
+	margin-bottom: 0.5rem;
+	color: #1f2937;
+}
+
+.cardText {
+	font-size: 0.95rem;
+	color: #374151;
+	line-height: 1.45;
+}
+
+/* CTA button shared with pricing module */
+.btnPrimary {
+	/* color: #60a5fa; */
+	/* background: #fff; */
+	color: #fff;
+	border: 1px solid white;
+	border-radius: 9999px;
+	padding: 0.75rem 2rem;
+	font-weight: 600;
+	text-decoration: none;
+	transition: background 0.25s;
+}
+.btnPrimary:hover {
+	background: #fff;
+	color: #60a5fa;
+}
+.btnCta {
+	margin-top: 1.5rem;
+}
+
+/* Mobile tweaks */
+@media (max-width: 480px) {
+	.card {
+		padding: 1.5rem 1.25rem;
+	}
+	.cardImg {
+		max-width: 64px;
+		margin-bottom: 1rem;
+	}
+	.cardTitle {
+		font-size: 1.05rem;
+	}
+}
