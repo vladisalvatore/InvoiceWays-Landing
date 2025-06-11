@@ -10,8 +10,15 @@ export default function NavBar() {
 			<div className={`container ${styles.navInner}`}>
 				{/* Brand */}
 				<a href="/" className={styles.logo}>
-					INVOICE WAYS
-					<span className={styles.logoSub}>by Lux IT Solutions</span>
+					<div>
+						<img src="/assets/logo.png" alt="" />
+					</div>
+					<div>
+						INVOICE WAYS
+						<span className={styles.logoSub}>
+							by Lux IT Solutions
+						</span>
+					</div>
 				</a>
 
 				{/* Hamburger (mobile) */}

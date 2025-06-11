@@ -70,3 +70,17 @@
 	color: var(--color-brand, #1e63f5);
 	font-weight: 600;
 }
+
+@media (max-width: 768px) {
+	.article h1 {
+		font-size: 1.2rem;
+	}
+
+	.blogHeaderImage {
+		max-width: 100%;
+	}
+
+	.blogHeaderImage img {
+		max-width: 100%;
+	}
+}
