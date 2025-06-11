@@ -10,21 +10,6 @@ import Footer from "../../../components/Footer/Footer";
 function MobileBenefits() {
 	return (
 		<>
-			{/* SEO meta */}
-			<Helmet>
-				<title>
-					Mobile Invoicing App Benefits for Contractors & Freelancers
-					| Invoice Ways
-				</title>
-				<meta
-					name="description"
-					content="Discover how a mobile invoicing & estimating app helps contractors and freelancers work smarter and get paid faster with Invoice Ways."
-				/>
-				<link
-					rel="canonical"
-					href="https://invoiceways.com/blog/mobile-invoicing-benefits"
-				/>
-			</Helmet>
 			<NavBar />
 
 			<main>
@@ -45,6 +30,13 @@ function MobileBenefits() {
 							</div>
 						</div>
 					</header>
+
+					<div className={styles.blogHeaderImage}>
+						<img
+							src="/assets/blog/mobile-invoicing-benefits.png"
+							alt="Mobile Estimates vs Doc hero image"
+						/>
+					</div>
 					{/* Article */}
 
 					<div className={styles.articleBody}>
@@ -171,14 +163,14 @@ function MobileBenefits() {
 							so you can try risk-free.
 						</p>
 
-						<h2>8. Seamless Integrations Save Time</h2>
+						{/* <h2>8. Seamless Integrations Save Time</h2>
 						<ul>
 							<li>QuickBooks Online &amp; Xero sync.</li>
 							<li>
 								Calendar auto-scheduling for accepted estimates.
 							</li>
 							<li>Zapier automations for custom workflows.</li>
-						</ul>
+						</ul> */}
 
 						<h2>Conclusion &amp; Next Steps</h2>
 						<p>

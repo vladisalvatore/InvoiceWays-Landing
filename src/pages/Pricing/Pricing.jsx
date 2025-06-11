@@ -7,14 +7,6 @@ import NavBar from "../../components/NavBar/NavBar.jsx";
 export default function PricingPage() {
 	return (
 		<>
-			<Helmet>
-				<title>Pricing – InvoiceWays</title>
-				<meta
-					name="description"
-					content="Simple, affordable plans. Upgrade to unlimited invoices and estimates for just $6.99 / month."
-				/>
-			</Helmet>
-
 			<NavBar />
 
 			{/* ---------- HERO ---------- */}
@@ -43,7 +35,7 @@ export default function PricingPage() {
 							<span className={styles.period}>/mo</span>
 						</p>
 						<ul className={styles.features}>
-							<li>10 invoices &amp; 10 estimates / month</li>
+							<li>10 invoices &amp; 10 estimates</li>
 							<li>Unlimited customers &amp; projects</li>
 							<li>Basic PDF styling</li>
 						</ul>
@@ -69,8 +61,8 @@ export default function PricingPage() {
 								estimates
 							</li>
 							<li>No watermarks on PDFs</li>
-							<li>Advanced PDF styles</li>
-							<li>Email &amp; chat support</li>
+							{/* <li>Advanced PDF styles</li> */}
+							{/* <li>Email &amp; chat support</li> */}
 						</ul>
 						<a
 							href="https://app.invoiceways.com/subscribe"
@@ -81,7 +73,7 @@ export default function PricingPage() {
 					</div>
 
 					{/* Annual */}
-					<div className={styles.card}>
+					{/* <div className={styles.card}>
 						<h3 className={styles.title}>Pro&nbsp;Annual</h3>
 						<p className={styles.price}>
 							<span className={styles.figure}>$69</span>
@@ -98,22 +90,22 @@ export default function PricingPage() {
 						>
 							Save Now
 						</a>
-					</div>
+					</div> */}
 				</div>
 			</section>
 
 			{/* ---------- CTA ---------- */}
-			<section className="section cta">
-				<div className="features">
+			<section className="bottom-section cta">
+				<div className="bottom-features">
 					<div>
-						<h2>14-Day Free Trial on&nbsp;Pro</h2>
+						<h2>10 Free Estimates and Invoices</h2>
 						<p>
 							No credit card required – try every feature today.
 						</p>
 					</div>
 					<a
-						href="https://app.invoiceways.com/subscribe"
-						className={`${styles.btnPrimary} ${styles.btnCta}`}
+						href="https://app.invoiceways.com/app"
+						className="btn-primary btn-cta"
 					>
 						Start Trial
 					</a>
@@ -133,5 +125,58 @@ export default function PricingPage() {
 				</div>
 			</footer>
 		</>
+	);
+}
+
+function PricingComponent() {
+	return (
+		<main className={styles.container}>
+			{/* --- SEO meta --- */}
+			<Helmet>
+				<title>Pricing | Invoice Ways</title>
+				<meta
+					name="description"
+					content="Get unlimited invoicing, estimates, and project tracking for only $6.99 per month. Start free with 10 invoices & 10 estimates on Invoice Ways."
+				/>
+				<link rel="canonical" href="https://invoiceways.com/pricing" />
+			</Helmet>
+
+			{/* --- Heading --- */}
+			<header className={styles.header}>
+				<h1 className={styles.title}>Simple, Honest Pricing</h1>
+				<p className={styles.subtitle}>
+					Start free with{" "}
+					<strong>10 invoices&nbsp;&amp;&nbsp;10 estimates</strong>,
+					then unlock unlimited features for one low monthly rate.
+				</p>
+			</header>
+
+			{/* --- Plan Card --- */}
+			<section className={styles.card}>
+				<h2 className={styles.planName}>Pro Plan</h2>
+				<p className={styles.price}>
+					<span className={styles.currency}>$</span>6.99
+					<span className={styles.period}>/mo</span>
+				</p>
+
+				<ul className={styles.features}>
+					<li>Unlimited invoices &amp; estimates</li>
+					<li>Accept card &amp; ACH payments*</li>
+					<li>Real-time project &amp; revenue dashboard</li>
+					<li>Branded PDF templates</li>
+					<li>Secure cloud backup</li>
+					<li>Priority email support</li>
+				</ul>
+
+				<a
+					href="https://app.invoiceways.com/register"
+					className={styles.cta}
+				>
+					Start Free – Upgrade Anytime
+				</a>
+
+				<p className={styles.note}>* Payment processing fees apply</p>
+			</section>
+		</main>
 	);
 }

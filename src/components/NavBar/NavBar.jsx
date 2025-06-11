@@ -32,7 +32,7 @@ export default function NavBar() {
 				>
 					{/* <a href="/index.html">Home</a> */}
 					<a href="/features">Features</a>
-					<a href="/pricing">Pricing</a>
+					{/* <a href="/pricing">Pricing</a> */}
 					<a href="/blog">Blog</a>
 					<a
 						href="https://app.invoiceways.com"

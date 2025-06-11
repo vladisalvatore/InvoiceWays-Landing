@@ -8,6 +8,17 @@
 .articleBody {
 	max-width: 980px;
 	margin-inline: auto;
+	padding: 20px;
+}
+
+.blogHeaderImage {
+	margin: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.blogHeaderImage img {
+	max-width: 700px;
 }
 
 .article h1 {

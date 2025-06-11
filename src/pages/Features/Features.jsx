@@ -64,18 +64,18 @@ export default function Features() {
 							img="assets/Styles.png"
 							text="Choose from multiple themes to match your brand."
 						/>
-						<FeatureCard
+						{/* <FeatureCard
 							title="Mobile &amp; Web Sync"
 							img="assets/Sync.png"
 							text="Work anywhere—changes sync instantly across devices."
-						/>
+						/> */}
 					</div>
 				</div>
 			</section>
 
 			{/* ---------- CTA ---------- */}
-			<section className="section cta">
-				<div className="features">
+			<section className="bottom-section cta">
+				<div className="bottom-features">
 					<div>
 						<h2>Ready to try InvoiceWays?</h2>
 						<p>
@@ -85,7 +85,7 @@ export default function Features() {
 					</div>
 					<a
 						href="https://app.invoiceways.com"
-						className={`${styles.btnPrimary} ${styles.btnCta}`}
+						className="btn-primary btn-cta"
 					>
 						Get Started
 					</a>

@@ -8,18 +8,18 @@ import Footer from "../../components/Footer/Footer";
  */
 const posts = [
 	{
-		slug: "blog/mobile-invoicing-benefits.html",
+		slug: "blog/mobile-invoicing-benefits",
 		title: "Mobile Invoicing App Benefits for Contractors & Freelancers",
 		excerpt:
 			"Discover how a mobile invoicing & estimating app helps contractors and freelancers work smarter and get paid faster with Invoice Ways.",
-		img: "/assets/blog/mobile-estimates-hero.jpg",
+		img: "/assets/blog/mobile-invoicing-benefits.png",
 	},
 	{
-		slug: "blog/mobile-estimates.html",
+		slug: "blog/mobile-estimates-vs-word-docs",
 		title: "Why Mobile Estimates Beat Word Docs in 2025",
 		excerpt:
 			"Six reasons contractors are ditching Word docs for mobile estimating—and winning jobs faster.",
-		img: "/assets/blog/mobile-estimates-hero.jpg",
+		img: "/assets/blog/mobile-estimates-vs-docs.png",
 	},
 	// 🔜  Add more posts here as you publish them
 ];

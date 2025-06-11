@@ -48,8 +48,10 @@
 
 /* CTA button shared with pricing module */
 .btnPrimary {
-	background: #60a5fa;
+	/* color: #60a5fa; */
+	/* background: #fff; */
 	color: #fff;
+	border: 1px solid white;
 	border-radius: 9999px;
 	padding: 0.75rem 2rem;
 	font-weight: 600;
@@ -57,7 +59,8 @@
 	transition: background 0.25s;
 }
 .btnPrimary:hover {
-	background: #3b82f6;
+	background: #fff;
+	color: #60a5fa;
 }
 .btnCta {
 	margin-top: 1.5rem;

@@ -53,7 +53,7 @@ body {
 }
 
 .hero {
-	background: linear-gradient(to right, #204dbf, #92bffa);
+	background: linear-gradient(to right, #204dbf, #7fa3de);
 	color: #fff;
 	padding: 40px 0;
 }
@@ -289,6 +289,40 @@ footer {
 	margin: 0 15px;
 	color: #1f62e2;
 	text-decoration: none;
+}
+
+.bottom-section {
+	padding: 60px 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.bottom-features {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 40px auto;
+	max-width: 500px;
+}
+
+.bottom-features .btn-primary {
+	/* color: #60a5fa; */
+	/* background: #fff; */
+	color: #fff;
+	border: 1px solid white;
+	border-radius: 9999px;
+	padding: 0.75rem 2rem;
+	font-weight: 600;
+	text-decoration: none;
+	transition: background 0.25s;
+}
+.bottom-features .btn-primary:hover {
+	background: #fff;
+	color: #60a5fa;
+}
+.bottom-features .btn-cta {
+	margin-top: 1.5rem;
 }
 
 /* Responsive Design */
