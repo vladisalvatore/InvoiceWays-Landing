@@ -13,13 +13,14 @@ export default defineConfig({
 				pricing: resolve(__dirname, "pricing.html"),
 				features: resolve(__dirname, "features.html"),
 				blog: resolve(__dirname, "blog.html"),
+				privacy: resolve(__dirname, "privacy.html"),
 				mobileBenefits: resolve(
 					__dirname,
-					"blog/mobile-invoicing-benefits.html"
+					"blog/mobile-invoicing-benefits.html",
 				),
 				mobileEstimatesVsWordDocs: resolve(
 					__dirname,
-					"blog/mobile-estimates-vs-word-docs.html"
+					"blog/mobile-estimates-vs-word-docs.html",
 				),
 			},
 		},

@@ -1,6 +1,7 @@
 // src/pages/LandingPage.jsx
 import React from "react";
 import NavBar from "../components/NavBar/NavBar";
+import Footer from "../components/Footer/Footer";
 
 export default function Landing() {
 	return (
@@ -243,17 +244,7 @@ export default function Landing() {
 			</section>
 
 			{/* ---------- Footer ---------- */}
-			<footer>
-				<div className="container footer-content">
-					<div className="footer-links">
-						<a href="https://app.invoiceways.com/privacy">
-							Privacy Policy
-						</a>
-						<a href="#">Terms of Service</a>
-					</div>
-					<p>© 2025 Lux IT Solutions. All rights reserved.</p>
-				</div>
-			</footer>
+			<Footer />
 		</>
 	);
 }
