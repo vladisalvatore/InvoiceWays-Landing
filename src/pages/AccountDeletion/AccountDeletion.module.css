@@ -1,0 +1,32 @@
+main {
+	max-width: 800px;
+	margin: 40px auto;
+}
+
+main h1 {
+	padding: 20px 0;
+}
+
+section {
+	padding: 20px 0;
+}
+
+section h3 {
+	padding: 5px 0;
+}
+
+section h4 {
+	margin-top: 40px;
+}
+
+section p {
+	margin: 20px 0;
+}
+
+section ul {
+	margin: 10px 0;
+}
+
+section ul li {
+	margin-left: 40px;
+}
