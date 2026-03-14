@@ -1,32 +1,11 @@
 import React from "react";
-import styles from "./AccountDeletion.module.css";
-import NavBar from "../../components/NavBar/NavBar";
-
-const userAccountInformation = [
-	"Username",
-	"Password",
-	"Full Name",
-	"Business",
-	"Name",
-	"Email Address",
-	"Phone Number",
-	"Business Address",
-	"City",
-	"State",
-	"Zip Code",
-	"OAuth Provider (oauth_provider, e.g., Google)",
-	"OAuth ID",
-	"Profile Image",
-	"Business Logo",
-];
-
-const subscriptionInformation = ["User ID", "Subscription Status"];
+import NavBar from "../components/NavBar/NavBar";
 
 const AccountDeletion = () => {
 	return (
 		<>
 			<NavBar />
-			<main>
+			<main class="legal">
 				<h1>Account Deletion</h1>
 				<section>
 					<h3>Account Deletion Request</h3>

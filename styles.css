@@ -132,7 +132,9 @@ body {
 .hero-image img {
 	max-width: 300px;
 	height: auto;
-	animation: floatIn 2s ease-out forwards, glowPulse 4s ease-in-out infinite;
+	animation:
+		floatIn 2s ease-out forwards,
+		glowPulse 4s ease-in-out infinite;
 	opacity: 0;
 	transform: translateY(20px) scale(0.95);
 }
@@ -424,6 +426,39 @@ footer {
 	background: #111827;
 }
 
+.legal {
+	max-width: 800px;
+	margin: 40px auto;
+}
+
+.legal h1 {
+	padding: 20px 0;
+}
+
+.legal section {
+	padding: 20px 0;
+}
+
+.legal section h3 {
+	padding: 5px 0;
+}
+
+.legal section h4 {
+	margin-top: 40px;
+}
+
+.legal section p {
+	margin: 20px 0;
+}
+
+.legal section ul {
+	margin: 10px 0;
+}
+
+.legal section ul li {
+	margin-left: 40px;
+}
+
 /* Mobile menu */
 @media (max-width: 768px) {
 	.navToggle {
@@ -444,7 +479,9 @@ footer {
 		opacity: 0;
 		pointer-events: none;
 		transform: translateY(-10px);
-		transition: opacity 0.25s, transform 0.25s;
+		transition:
+			opacity 0.25s,
+			transform 0.25s;
 	}
 
 	.open {

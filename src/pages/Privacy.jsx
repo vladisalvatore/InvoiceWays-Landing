@@ -1,6 +1,5 @@
 import React from "react";
-import styles from "./Privacy.module.css";
-import NavBar from "../../components/NavBar/NavBar";
+import NavBar from "../components/NavBar/NavBar";
 
 const userAccountInformation = [
 	"Username",
@@ -26,7 +25,7 @@ const Privacy = () => {
 	return (
 		<>
 			<NavBar />
-			<main>
+			<main class="legal">
 				<h1>Privacy Policy</h1>
 				<section>
 					<h3>1. Introduction</h3>
