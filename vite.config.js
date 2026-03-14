@@ -14,6 +14,7 @@ export default defineConfig({
 				features: resolve(__dirname, "features.html"),
 				blog: resolve(__dirname, "blog.html"),
 				privacy: resolve(__dirname, "privacy.html"),
+				account-deletion: resolve(__dirname, "account-deletion.html"),
 				mobileBenefits: resolve(
 					__dirname,
 					"blog/mobile-invoicing-benefits.html",
